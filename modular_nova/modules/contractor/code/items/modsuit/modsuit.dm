@@ -1,4 +1,3 @@
-
 /obj/item/mod/control/pre_equipped/contractor
 	worn_icon = 'modular_nova/modules/contractor/icons/worn_modsuit.dmi'
 	icon = 'modular_nova/modules/contractor/icons/modsuit.dmi'
@@ -28,11 +27,13 @@
 		/obj/item/mod/module/jetpack,
 		/obj/item/mod/module/magnetic_harness,
 		/obj/item/mod/module/storage/syndicate,
+		/obj/item/mod/module/stealth/no_complexity,
 	)
 	default_pins = list(
 		/obj/item/mod/module/armor_booster/contractor,
 		/obj/item/mod/module/jetpack,
 		/obj/item/mod/module/baton_holster/preloaded,
+		/obj/item/mod/module/stealth/no_complexity,
 	)
 
 /obj/item/mod/control/pre_equipped/contractor/upgraded/adminbus
@@ -42,6 +43,7 @@
 		/obj/item/mod/module/jetpack/advanced,
 		/obj/item/mod/module/scorpion_hook,
 		/obj/item/mod/module/springlock/contractor/no_complexity,
+		/obj/item/mod/module/stealth/no_complexity,
 		/obj/item/mod/module/storage/syndicate,
 	)
 	default_pins = list(
@@ -54,3 +56,5 @@
 // For the prefs menu
 /obj/item/mod/control/pre_equipped/empty/contractor
 	theme = /datum/mod_theme/contractor
+
+//		/obj/item/mod/module/stealth,

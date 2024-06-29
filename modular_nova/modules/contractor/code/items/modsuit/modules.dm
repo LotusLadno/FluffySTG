@@ -38,6 +38,12 @@
 	removable = FALSE
 	complexity = 0
 
+/obj/item/mod/module/stealth/no_complexity
+	complexity = 0
+	icon_state = "hook"
+	icon = 'modular_nova/modules/contractor/icons/modsuit_modules.dmi'
+
+
 /obj/item/mod/module/armor_booster/contractor // Much flatter distribution because contractor suit gets a shitton of armor already
 	armor_mod = /datum/armor/contract_booster
 	desc = "An integrated set of auxiliary armor plates, allowing the suit's modest protection to be increased further. \
